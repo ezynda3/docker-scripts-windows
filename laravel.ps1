@@ -1,0 +1,1 @@
+docker run --rm -it --net=host -v ${pwd}:/app -w /app ezynda3/php:7.1 /home/stark/.composer/vendor/bin/laravel @args

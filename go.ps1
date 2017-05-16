@@ -1,0 +1,1 @@
+docker run --rm -it --net=host -v ${pwd}:/go/src -w /go/src golang go @args

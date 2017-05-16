@@ -1,0 +1,1 @@
+docker run --rm -it -p 8080:8080 -v ${pwd}:/app -w /app ezynda3/node:7.7.2 npm @args

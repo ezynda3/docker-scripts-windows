@@ -1,0 +1,1 @@
+docker run --rm -it --net=host -v ${pwd}:/app -w /app ezynda3/node:7.7.2 node @args
